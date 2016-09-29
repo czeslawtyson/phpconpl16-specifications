@@ -12,6 +12,7 @@ class Step01Command extends AbstractTutorialCommand
     public function run(InputInterface $input, OutputInterface $output)
     {
         $rulerz = $this->getRulerZ();
+        // dupa
 
         $output->writeln(get_class($rulerz));
     }
